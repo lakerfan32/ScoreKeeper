@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="heading_team_A">Team A</string>
+    <string name="score_team">0</string>
+    <string name="button_td_6">TD +6</string>
+    <string name="button_conv_2">CONV +2</string>
+    <string name="button_xtra_pt_1">XTRA PT +1</string>
+    <string name="button_fg_3">FG +3</string>
+    <string name="heading_team_b">Team B</string>
+    <string name="button_reset">Reset</string>
+</resources>
