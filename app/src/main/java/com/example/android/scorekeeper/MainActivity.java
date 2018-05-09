@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamA = scoreTeamA + 6;
         displayForTeamA(scoreTeamA);
     }
+
     /**
      * Touchdown = Increase the score for Team B by 6 points.
      */
