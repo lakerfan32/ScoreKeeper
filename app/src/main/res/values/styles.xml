@@ -8,4 +8,12 @@
         <item name="colorButtonNormal">#7986CB</item>
     </style>
 
+    <style name="buttonStyle">
+        <!-- Customize Button style info here -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
 </resources>
