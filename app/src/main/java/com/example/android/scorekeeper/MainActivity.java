@@ -17,23 +17,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Saves the instance of the current score upon device rotation to "someVar" variable.
+     * Saves the instance of the current score upon device rotation to "saveScoreA" and "saveScoreB" variables.
      */
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("someVarA", scoreTeamA);
-        outState.putInt("someVarB", scoreTeamB);
+        outState.putInt("saveScoreA", scoreTeamA);
+        outState.putInt("saveScoreB", scoreTeamB);
     }
 
     /**
-     * Restores the state of the score after device rotation from "someVar" variable.
+     * Restores the state of the score after device rotation from "saveScoreA" and "saveScoreB" variables.
      */
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        scoreTeamA = savedInstanceState.getInt("someVarA");
-        scoreTeamB = savedInstanceState.getInt("someVarB");
+        scoreTeamA = savedInstanceState.getInt("saveScoreA");
+        scoreTeamB = savedInstanceState.getInt("saveScoreB");
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
